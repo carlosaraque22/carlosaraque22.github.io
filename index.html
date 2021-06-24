@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PAVApp</title>
+    <link rel="stylesheet" href="./sources/theme.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Viaoda+Libre&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about-us">About us</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#team">The team</a>
+            <a href="#contact-us">Contact</a>
+        </nav>
+        <div class="container" id="inicio">
+            <div class="textos">
+                <h1>PAVApp</h1>
+                <h2>An IOT kettle, designed to meet all your creative and wireless domotic needs.</h2>
+                <a href="https://github.com/Lunerio/PAVApp">Github</a>
+            </div>
+            <img src="pavapp.png" alt="">
+        </div>
+
+    </header>
+    <div class="wave">
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </div>
+    <main>
+        <section class="contenedor sobre-nosotros" id="about-us">
+            <h2 class="titulo ">About Us</h2>
+            <h3>Our dream was to make an IOT project that combined hardware and software in a useful, yet inexpensive and escalable way. With PAVApp, the goal is to let the world create one, improving, customizing, and making it their own.</h3>
+            <div class="contenedor-sobre-nosotros ">
+                <img src="./img/foto-6.jpeg " alt=" " class="imagen-about-us ">
+                <div class="contenido-textos ">
+                    <h3><span>1</span> Raspberry Pi</h3>
+                    <p>Server running VUE.js webpage that makes requests to the device. Runs on Raspbian OS, automatically runs the web page service on boot.</p>
+                    <h3><span>2</span> Device</h3>
+                    <p>This device contains a SONOFF Mini with an ESP8266 chip for WiFi connection, a relay and a temperature sensor. This device takes the requests and runs functions to turn on/off the relay and returns the state of it in conjunction with
+                        the current temperature.</p>
+                    <h3><span>3</span> Website</h3>
+                    <p>The website serves as an intermediary between the user and the raspberry to send a request to the kettle and achieve its correct operation. </p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio " id="portfolio">
+            <div class="contenedor ">
+                <h2 class="titulo ">Portfolio</h2>
+                <div class="galeria-port ">
+                    <div class="imagen-port ">
+                        <img src="img/img5.jpeg " alt=" ">
+                        <div class="hover-galeria ">
+                            <img src="./img/cursor.png " alt=" ">
+                            <p>Our work</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port ">
+                        <img src="img/img2.jpeg " alt=" ">
+                        <div class="hover-galeria ">
+                            <img src="./img/cursor.png " alt=" ">
+                            <p>Our work</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port ">
+                        <img src="img/img3.jpeg " alt=" ">
+                        <div class="hover-galeria ">
+                            <img src="./img/cursor.png " alt=" ">
+                            <p>Our work</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port ">
+                        <img src="img/img4.jpeg " alt=" ">
+                        <div class="hover-galeria ">
+                            <img src="./img/cursor.png " alt=" ">
+                            <p>Our work</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port ">
+                        <img src="img/img1.jpeg " alt=" ">
+                        <div class="hover-galeria ">
+                            <img src="./img/cursor.png " alt=" ">
+                            <p>Our work</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port ">
+                        <img src="img/img6.jpeg " alt=" ">
+                        <div class="hover-galeria ">
+                            <img src="./img/cursor.png " alt=" ">
+                            <p>Our work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services " id="team">
+            <div class="contenedor ">
+                <h2 class="titulo ">Team</h2>
+                <div class="servicio-cont ">
+                    <div class="servicio-ind ">
+                        <img src="./img/Carlos.jpg " alt=" ">
+                        <h2>Carlos Araque</h2>
+                        <h3>Frontend Developer</h3>
+                    </div>
+                    <div class="servicio-ind ">
+                        <img src="./img/Hugo.jpg" alt=" ">
+                        <h2>Hugo Gomez</h2>
+                        <h3>Devops Developer</h3>
+                    </div>
+                    <div class="servicio-ind ">
+                        <img src="./img/Micaela.jpg " alt=" ">
+                        <h2>Micaela Percovich</h2>
+                        <h3>Backend Developer</h3>
+                    </div>
+                    <div class="servicio-ind ">
+                        <img src="./img/Miguel.jpg " alt=" ">
+                        <h2>Miguel Crespi</h2>
+                        <h3>Hardware engineer</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer " id="contact-us">
+            <div class="content-foo ">
+                <h4>Phone</h4>
+                <p>Carlos Araque: 099959395</p>
+                <p>Hugo Gomez: 097701917</p>
+                <p>Miguel Crespi: 098689666</p>
+                <p>Micaela Percovich: 097608680</p>
+            </div>
+            <div class="content-foo ">
+                <h4>Email</h4>
+                <p>Carlos Araque: 2121@holbertonschool.com</p>
+                <p>Hugo Gomez: 1765@holbertonschool.com</p>
+                <p>Miguel Crespi: 2113@holbertonschool.com</p>
+                <p>Micaela Percovich: 2101@holbertonschool.com</p>
+            </div>
+            <div class="content-foo ">
+                <h4>Linkedin</h4>
+                <a href="https://www.linkedin.com/in/carlos-araque-baleta-834561187/">Carlos Araque</a>
+                <a href="https://www.linkedin.com/in/lunerio/">Hugo Gomez</a>
+                <a href="https://www.linkedin.com/in/miguel-crespi-campomar-3443851b6/">Migue Crespi</a>
+                <a href="https://www.linkedin.com/in/micaela-percovich/">Micaela Percovich</a>
+            </div>
+        </div>
+        <h2 class="titulo-final ">&copy; PAVApp</h2>
+    </footer>
+</body>
+
+</html>
